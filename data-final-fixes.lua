@@ -32,22 +32,17 @@ local function modifyAmmo (ammo)
 		tracer = "visual-tracer-projectile-uranium"
 	end
 
-	local probability = tonumber(string.sub(settings.startup["visual_tracers--probability"].value, 1, -2)) or 0
 	table.insert(actions,
 	{
 		type = "direct",
-		probability = probability / 100,
-		action_delivery =
-		{
-			{
-				type = "projectile",
-				projectile = tracer,
-				starting_speed = settings.startup["visual_tracers--speed"].value,
-				starting_speed_deviation = settings.startup["visual_tracers--speed_deviation"].value,
-				direction_deviation = settings.startup["visual_tracers--direction_deviation"].value,
-				max_range = settings.startup["visual_tracers--range"].value,
-				range_deviation = settings.startup["visual_tracers--range_deviation"].value,
-			},
+		action_delivery = {
+			type = "instant",
+			target_effects = {
+				{
+					type = "script",
+					effect_id = tracer
+				}
+			}
 		},
 	})
 	
