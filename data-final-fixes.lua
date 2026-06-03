@@ -4,7 +4,7 @@ local function modifyAmmo (ammo)
 	if not ammo then
 		return
 	end
-	
+
 	if not ammo.ammo_type then
 		return
 	end
@@ -45,7 +45,7 @@ local function modifyAmmo (ammo)
 			}
 		},
 	})
-	
+
 	ammo.ammo_type.action = actions
 end
 

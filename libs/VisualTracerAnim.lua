@@ -19,7 +19,7 @@ function VisualTracerAnim.generate (scaleA, tintA, scaleB, tintB, count)
 	if count <= 0 then
 		return {}
 	end
-	
+
 	local animSet = {}
 	count = math.max(count - 1, 1)
 	for i = 0, count do
