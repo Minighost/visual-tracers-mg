@@ -34,7 +34,7 @@ function VisualTracerAnim.generate (scaleA, tintA, scaleB, tintB, count)
 
 		table.insert(animSet,
 		{
-			filename = "__visual_tracers__/graphics/entities/tracer.png",
+			filename = "__visual_tracers_mg__/graphics/entities/tracer.png",
 			scale = scale,
 			tint = tint,
 			width = 3,

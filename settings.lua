@@ -1,8 +1,8 @@
 data:extend({
 	{
 		type = "string-setting",
-		name = "visual_tracers--ammo_categories",
-		description = "visual_tracers--ammo_categories",
+		name = "visual_tracers_mg--ammo_categories",
+		description = "visual_tracers_mg--ammo_categories",
 		setting_type = "startup",
 		default_value = "bullet",
 		allow_blank = true,
@@ -21,7 +21,7 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "visual_tracers--speed",
+		name = "visual_tracers_mg--speed",
 		setting_type = "startup",
 		default_value = 1.0,
 		minimum_value = 0.5,
@@ -31,7 +31,7 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "visual_tracers--speed_deviation",
+		name = "visual_tracers_mg--speed_deviation",
 		setting_type = "startup",
 		default_value = 0.20,
 		minimum_value = 0.0,
@@ -41,7 +41,7 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "visual_tracers--direction_deviation",
+		name = "visual_tracers_mg--direction_deviation",
 		setting_type = "startup",
 		default_value = 0.15,
 		minimum_value = 0.0,
@@ -51,7 +51,7 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "visual_tracers--range",
+		name = "visual_tracers_mg--range",
 		setting_type = "startup",
 		default_value = 30,
 		minimum_value = 10,
@@ -61,7 +61,7 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "visual_tracers--range_deviation",
+		name = "visual_tracers_mg--range_deviation",
 		setting_type = "startup",
 		default_value = 0.15,
 		minimum_value = 0.0,
@@ -71,7 +71,7 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "visual_tracers--acceleration",
+		name = "visual_tracers_mg--acceleration",
 		setting_type = "startup",
 		default_value = 0.0,
 		minimum_value = -0.1,

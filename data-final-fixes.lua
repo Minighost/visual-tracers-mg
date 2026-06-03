@@ -1,4 +1,4 @@
-local VisualTracerAnim = require("__visual_tracers__/libs/VisualTracerAnim")
+local VisualTracerAnim = require("__visual_tracers_mg__/libs/VisualTracerAnim")
 
 local function modifyAmmo (ammo)
 	if not ammo then
@@ -10,7 +10,7 @@ local function modifyAmmo (ammo)
 	end
 
 	validAmmo = false
-	for ammoCategory in settings.startup["visual_tracers--ammo_categories"].value:gmatch("%S+") do
+	for ammoCategory in settings.startup["visual_tracers_mg--ammo_categories"].value:gmatch("%S+") do
 		if ammoCategory == ammo.ammo_category then
 			validAmmo = true
 		end

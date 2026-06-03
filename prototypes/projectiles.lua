@@ -1,4 +1,4 @@
-local VisualTracerAnim = require("__visual_tracers__/libs/VisualTracerAnim")
+local VisualTracerAnim = require("__visual_tracers_mg__/libs/VisualTracerAnim")
 
 data:extend({
 -- Normal Bullet Tracer --
@@ -8,7 +8,7 @@ data:extend({
         flags = {"not-on-map"},
 		hit_collision_mask = {layers={water_tile=true}},
         hit_at_collision_position = true,
-        acceleration = settings.startup["visual_tracers--acceleration"].value,
+        acceleration = settings.startup["visual_tracers_mg--acceleration"].value,
         animation = VisualTracerAnim.generate(
 			0.8,
 			{r = 1, g = 0.8, b = 0.4, a = 0.5},
@@ -46,7 +46,7 @@ data:extend({
         flags = {"not-on-map"},
 		hit_collision_mask = {layers={water_tile=true}},
         hit_at_collision_position = true,
-        acceleration = settings.startup["visual_tracers--acceleration"].value,
+        acceleration = settings.startup["visual_tracers_mg--acceleration"].value,
         animation = VisualTracerAnim.generate(
 			0.8,
 			{r = 1, g = 0.6, b = 0.3, a = 0.6},
@@ -84,7 +84,7 @@ data:extend({
         flags = {"not-on-map"},
 		hit_collision_mask = {layers={water_tile=true}},
         hit_at_collision_position = true,
-        acceleration = settings.startup["visual_tracers--acceleration"].value,
+        acceleration = settings.startup["visual_tracers_mg--acceleration"].value,
         animation = VisualTracerAnim.generate(
 			0.8,
 			{r = 0.7, g = 1, b = 0.5, a = 0.6},
