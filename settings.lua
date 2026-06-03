@@ -10,11 +10,12 @@ data:extend({
 		per_user = false
 	},
 	{
-		type = "string-setting",
-		name = "visual_tracers--probability",
+		type = "int-setting",
+		name = "visual_tracers_mg--nth_round",
 		setting_type = "startup",
-		default_value = "33%",
-		allowed_values = {"10%", "20%", "33%", "50%", "67%", "100%"},
+		default_value = 3,
+		minimum_value = 0,
+		maximum_value = 20,
 		order = "a2",
 		per_user = false
 	},
