@@ -1,0 +1,11 @@
+{
+	"name": "visual_tracers",
+	"version": "1.0.5",
+	"title": "Bullet Tracers",
+	"author": "Kittah Khan",
+	"contact":"",
+	"homepage":"", 
+	"description": "Adds bullet tracers/trails to gun magazines. Works with any weapon that uses gun magazines.",
+	"dependencies": ["base >= 2.0"],
+	"factorio_version": "2.0"
+}

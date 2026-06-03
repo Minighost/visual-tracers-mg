@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 21. 10. 2024
+
+  Minor Features:
+    - 2.0 Compatibility
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 19. 08. 2023
+
+  Minor Features:
+    - Added an ammo category setting for potential custom weapons
+    - Moved script to final-fixes instead of update
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 07. 08. 2023
+
+  Minor Features:
+    - Brought default settings in line with Ballistics mod
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 05. 08. 2023
+
+  Minor Features:
+    - Updated tracer graphics
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 02. 08. 2023
+
+  Minor Features:
+    - Added some settings
+    - Added tracer hit effects
+  Fixes:
+    - Moved ammo-updating script to data-updates.lua
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 02. 08. 2023
+
+  Major Features:
+    - Initial release
